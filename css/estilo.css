@@ -1,205 +1,204 @@
 /** CSS PARA MOVILES **/
 @media all and (min-width:320px){
-        /*Navbar*/
+    /*Navbar*/
 a img {
-    width: 100px;
-    height: 40px
+width: 100px;
+height: 40px
 }
 
 
 .navbar-gray {
-    background-color: #454545 !important;
+background-color: #454545 !important;
 }
-    /*body bienvenida*/
+/*body bienvenida*/
 
 .img-banner {
-    background-image: url("../img/ba1.jpg") !important;
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
+background-image: url("../img/ba1.jpg") !important;
+background-color: #cccccc;
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: grid;
 }
 
 .text-banner {
-    padding-top: 15%;
-    text-align: center;
+padding-top: 15%;
+text-align: center;
 }
 
 .text-banner h1, .text-banner p{
-    color: white;
+color: white;
 }
 
-    /*Seccion oradores*/
+/*Seccion oradores*/
 .card-oradores .container-cards .card{
-    width: 100% !important; 
+width: 100% !important; 
 }
 .container-cards{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+display: flex;
+flex-direction: column;
+width: 100%;
 }
 .card-oradores .container-cards{
-    padding: 0.5em;
-    width: 100% !important;
+padding: 0.5em;
+width: 100% !important;
 }
 div h2{
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: lighter;
-    margin: 10px 0 10px 0;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: lighter;
+margin: 10px 0 10px 0;
 } 
 
 div h3{
-    text-transform: uppercase;
-    font-size: 30px;
+text-transform: uppercase;
+font-size: 30px;
 }
 /* seccion Carousel*/
 .honolulu-info{
-    background-color: #454545;
+background-color: #454545;
 }
 .honolulu-info p, .honolulu-info h4{
-    color: white;
-    padding: 0.5em;
+color: white;
+padding: 0.5em;
 }
 .honolulu-info .btn{
-    margin-bottom: 0.5em;
-    margin-left: 0.5em;
+margin-bottom: 0.5em;
+margin-left: 0.5em;
 }
 /* formulario de convierte en orador */
 
 .form-oradores{
-    margin-top: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
+margin-top: 15px;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 
 .btn-submit{
-    background-color: #94c63e;
-    border-color: #75a02c;
-    color: white;
-    width: 100%;
+background-color: #94c63e;
+border-color: #75a02c;
+color: white;
+width: 100%;
 }
 
 .form-oradores h4, .form-oradores h5{
-    text-transform: uppercase;
+text-transform: uppercase;
 }
 
 .form-oradores h4{
-    font-size: 15px;
-    font-weight: lighter;
+font-size: 15px;
+font-weight: lighter;
 }
 
 .form-oradores h5{
-    font-size: 30px;
+font-size: 30px;
 }
 
 p span{
-    border-bottom:3px dotted black;
-    text-decoration:none;
+border-bottom:3px dotted black;
+text-decoration:none;
 }
 
 /* footer */
 
 .footer-links{
-    background-color: rgb(26, 44, 83);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0.5em;
+background-color: rgb(26, 44, 83);
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 0.5em;
 }
 
 .footer-links a{
-    color: white;
-    text-decoration: none;
+color: white;
+text-decoration: none;
 }
 }
 
 /** CSS PARA DISPOSITIVOS DE 480PX EN ADELANTE **/
 
 @media all and (min-width:480px){
-    
-    /* body bienvenida */
-    .text-banner {
-        padding-left: 50%;
-        padding-top: 15%;
-        text-align: end;
-    }
-    
-    .text-banner h1, .text-banner p{
-        color: white;
-    }
+
+/* body bienvenida */
+.text-banner {
+    padding-left: 50%;
+    padding-top: 15%;
+    text-align: end;
+}
+
+.text-banner h1, .text-banner p{
+    color: white;
+}
 /* body seccion de oradores cards */
 
 .container-cards{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+display: flex;
+flex-direction: row;
+width: 100%;
 }
 .card-oradores img{
-    height: 100% !important;
+height: 100% !important;
 }
 
 .container-cards{
-    display: flex;
-    padding: 0 100px 0 100px !important;
+display: flex;
+padding: 0 100px 0 100px !important;
 }
 
 .card {
-    width: 100%;
-    margin: 20px;
+width: 100%;
+margin: 20px;
 }
 
 div p {
-    color: black;
+color: black;
 }
 
 .card img{
-    width: auto;
-    height: 300px;
+width: auto;
+height: 300px;
 }
 
 /* seccion carousel */
 
 picture img{
-    width: 100%;
+width: 100%;
 }
 
 .row{
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 
 .honolulu-banner{
-    display: flex;
+display: flex;
 }
 
 .honolulu-info{
-    padding: 25px;
+padding: 25px;
 }
 
 /*Formulario*/
 
 .form-oradores{
-    margin-top: 15px;
-    margin-left: 20%;
-    margin-right: 20%;
+margin-top: 15px;
+margin-left: 20%;
+margin-right: 20%;
 }
 .form-oradores .btn-submit:hover, .form-oradores:focus{
-    background-color: #648825;
-    transition: background-color 1s ease;
+background-color: #648825;
+transition: background-color 1s ease;
 }
 
 /* footer */
 .footer-links{
-    height: 75px;
-    background-color: rgb(26, 44, 83);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+height: 75px;
+background-color: rgb(26, 44, 83);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
 }
 }
-
