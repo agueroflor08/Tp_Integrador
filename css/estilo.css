@@ -1,4 +1,6 @@
-/*Navbar*/
+/** CSS PARA MOVILES **/
+@media all and (min-width:320px){
+        /*Navbar*/
 a img {
     width: 100px;
     height: 40px
@@ -8,8 +10,7 @@ a img {
 .navbar-gray {
     background-color: #454545 !important;
 }
-
-/*body bienvanida*/
+    /*body bienvenida*/
 
 .img-banner {
     background-image: url("../img/ba1.jpg") !important;
@@ -22,19 +23,27 @@ a img {
 }
 
 .text-banner {
-    padding-left: 50%;
     padding-top: 15%;
-    text-align: end;
+    text-align: center;
 }
 
 .text-banner h1, .text-banner p{
     color: white;
 }
 
-
-/* body seccion de oradores cards */
-
-
+    /*Seccion oradores*/
+.card-oradores .container-cards .card{
+    width: 100% !important; 
+}
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.card-oradores .container-cards{
+    padding: 0.5em;
+    width: 100% !important;
+}
 div h2{
     text-transform: uppercase;
     font-size: 15px;
@@ -46,63 +55,30 @@ div h3{
     text-transform: uppercase;
     font-size: 30px;
 }
-
-.container-cards{
-    display: flex;
-    padding: 0 100px 0 100px !important;
-}
-
-.card {
-    width: 100%;
-    height: 600px;
-    margin: 20px;
-}
-
-div p {
-    color: black;
-}
-
-.card img{
-    width: auto;
-    height: 300px;
-}
-
-/* body seccion de informacion de buenos aires */
-
-picture img{
-    width: 100%;
-}
-
-.row{
-    padding: 0;
-    margin: 0;
-}
-
-.honolulu-banner{
-    display: flex;
-}
-
+/* seccion Carousel*/
 .honolulu-info{
     background-color: #454545;
-    padding: 25px;
 }
-
-.honolulu-info h4, .honolulu-info p{
+.honolulu-info p, .honolulu-info h4{
     color: white;
+    padding: 0.5em;
 }
-
-/* body formulario de convierte en orador */
+.honolulu-info .btn{
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+}
+/* formulario de convierte en orador */
 
 .form-oradores{
     margin-top: 15px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
 .btn-submit{
-    background-color: #09d751;
-    border-color: #09d751;
+    background-color: #94c63e;
+    border-color: #75a02c;
     color: white;
     width: 100%;
 }
@@ -128,16 +104,102 @@ p span{
 /* footer */
 
 .footer-links{
-    height: 75px;
-    background-color: rgb(28, 103, 157);
+    background-color: rgb(26, 44, 83);
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    padding: 0.5em;
 }
 
 .footer-links a{
     color: white;
     text-decoration: none;
 }
+}
 
-/* media queries*/
+/** CSS PARA DISPOSITIVOS DE 480PX EN ADELANTE **/
+
+@media all and (min-width:480px){
+    
+    /* body bienvenida */
+    .text-banner {
+        padding-left: 50%;
+        padding-top: 15%;
+        text-align: end;
+    }
+    
+    .text-banner h1, .text-banner p{
+        color: white;
+    }
+/* body seccion de oradores cards */
+
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.card-oradores img{
+    height: 100% !important;
+}
+
+.container-cards{
+    display: flex;
+    padding: 0 100px 0 100px !important;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+}
+
+div p {
+    color: black;
+}
+
+.card img{
+    width: auto;
+    height: 300px;
+}
+
+/* seccion carousel */
+
+picture img{
+    width: 100%;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+.honolulu-banner{
+    display: flex;
+}
+
+.honolulu-info{
+    padding: 25px;
+}
+
+/*Formulario*/
+
+.form-oradores{
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.form-oradores .btn-submit:hover, .form-oradores:focus{
+    background-color: #648825;
+    transition: background-color 1s ease;
+}
+
+/* footer */
+.footer-links{
+    height: 75px;
+    background-color: rgb(26, 44, 83);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+}
+
