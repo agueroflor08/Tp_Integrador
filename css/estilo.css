@@ -143,6 +143,19 @@ text-decoration: none;
   .box p{
     color: rgb(78, 76, 76);
   }
+  form #inputPagar input{
+    background-color: rgb(164, 208, 222) !important;
+    color: black ;
+  }
+  form #inputPagar  input::placeholder{
+    color: rgb(78, 76, 76) ;
+  }
+  form #labelCant label, form #labelCat label{
+    text-align: left !important;
+  }
+  form #labelCat select{
+    color: rgb(78, 76, 76);
+  }
 
 /** CSS PARA DISPOSITIVOS DE 480PX EN ADELANTE **/
 

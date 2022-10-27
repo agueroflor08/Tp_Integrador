@@ -70,24 +70,43 @@
 
     <!--Formulario-->
         <div class="form-oradores text-center">
-            <h4>Conviértete en un</h4>
-            <h5>Orador</h5>
-            <p>Anotate como orador para dar una <span>charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+            <h4>Venta</h4>
+            <h5>Valor de ticket $200</h5>
             <form class="row g-3">
                 <div class="col-md-6">
-                    <label for="ejemploNombre" class="form-label"></label>
-                    <input type="text" class="form-control form-nombre" id="ejemploNombre" placeholder="Nombre">
+                    <label for="inputNombre" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputApellido" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputCorreo" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputCorreo" placeholder="Correo">
+                  </div>
+                  <div class="col-md-6" id="labelCant">
+                    <label for="inputCant" class="form-label">Cantidad</label>
+                    <input type="text" class="form-control" id="inputCant">
+                  </div>
+                  <div class="col-md-6" id="labelCat">
+                    <label for="inputCat" class="form-label">Categoría</label>
+                    <select id="inputCat" class="form-select">
+                      <option value="estudiante" selected>Estudiante</option>
+                      <option value="trainee">Trainee</option>
+                      <option value="junior">Junior</option>
+                    </select>
+                  </div>
+                  <div class="col-12" id="inputPagar">
+                    <label for="totPagar" class="form-label"></label>
+                    <input type="text" class="form-control" id="totPagar" placeholder="Total a pagar: $">
+                  </div>
+                <div class="col-md-6">
+                    <button type="reset" class="btn btn-submit btn-success">Borrar</button>
                 </div>
                 <div class="col-md-6">
-                    <label for="ejemploApellido" class="form-label"></label>
-                    <input type="text" class="form-control form-apellido" id="ejemploApellido" placeholder="Apellido">
+                    <button type="submit" class="btn btn-submit btn-success">Resumen</button>
                 </div>
-                <textarea class="form-control" placeholder="De que te gustaria hablar?" id="floatingTextarea2"
-                    style="height: 100px"></textarea>
-                <div id="floatingTextarea2" class="form-text d-inline-flex">
-                    Recuerda incluir un título para tu charla.
-                </div>
-                <button type="submit" class="btn btn-submit btn-success">Enviar</button>
             </form>
         </div>
     </main>
