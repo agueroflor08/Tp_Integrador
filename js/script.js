@@ -17,7 +17,7 @@ function borrar() {
   apellido.value = "";
   email.value = "";
   cantidad.value = "";
-  cantidad.value = "";
+  categoria.value = "";
   totalPago.textContent = "";
 }
 
@@ -38,7 +38,7 @@ function calcularDescuento() {
 
 function calcularTotal() {
   let total = 0;
-  total = parseInt(cantidad.value) * calcularDescuento() * TICKET;
+  total = (parseInt(cantidad.value) * TICKET) - (parseInt(cantidad.value) * calcularDescuento() * TICKET);
   return total;
 }
 
