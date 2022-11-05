@@ -60,7 +60,7 @@
                 <h5>50%</h5>
                 <p class="pbox2">* presentar documentación</p>
             </div>
-            <div class="box">
+            <div class="box" id="caja3">
                 <h4>Junior</h4>
                 <p>Tienen un descuento</p>
                 <h5>15%</h5>
@@ -73,7 +73,7 @@
         <div class="form-oradores text-center">
             <h4>Venta</h4>
             <h5>Valor de ticket $200</h5>
-            <form class="row g-3">
+            <form class="row g-3" id="formTickets">
                 <div class="col-md-6">
                     <label for="nombre" class="form-label"></label>
                     <input type="text" class="form-control" id="nombre" placeholder="Nombre">
@@ -93,15 +93,14 @@
                   <div class="col-md-6" id="labelCat">
                     <label for="categoria" class="form-label">Categoría</label>
                     <select id="categoria" class="form-select">
-                      <option value="ninguna" selected>Ninguna</option>
-                      <option value="estudiante">Estudiante</option>
+                      <option value="estudiante" selected>Estudiante</option>
                       <option value="trainee">Trainee</option>
                       <option value="junior">Junior</option>
                     </select>
                   </div>
                   <div class="col-12" id="inputPagar">
-                    <label for="totalPago" class="form-label"></label>
-                    <input type="text" class="form-control" id="totalPago" placeholder="Total a pagar: $">
+                    <label for="inputTotalPago" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputTotalPago" placeholder="Total a pagar: $">
                   </div>
                 <div class="col-md-6">
                     <button type="reset" id="btnBorrar"  class="btn btn-submit btn-success">Borrar</button>

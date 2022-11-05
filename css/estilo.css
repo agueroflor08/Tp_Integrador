@@ -132,6 +132,9 @@ text-decoration: none;
     width: 250px;
     height: 250px;
   }
+  #caja3{
+    border: 2px solid rgb(205, 157, 26);
+  }
   .box h4, .box p, .box h5{
     text-align: center;
   }
@@ -249,7 +252,4 @@ align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
-.box:hover, .box:focus{
-    border: 2px solid rgb(205, 157, 26);
 }
